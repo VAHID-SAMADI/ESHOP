@@ -1,6 +1,7 @@
 @font-face {
   font-family: estedad;
-  src: url(fonts/Estedad-Medium.woff),url(fonts/Estedad-Medium.ttf),url(fonts/Estedad-Medium.woff2);
+  src: url(fonts/Estedad-Medium.woff), url(fonts/Estedad-Medium.ttf),
+    url(fonts/Estedad-Medium.woff2);
 }
 * {
   text-decoration: none;
@@ -58,10 +59,11 @@ a:hover {
   margin-bottom: 30px;
 }
 .cards-holder {
-  margin-top: 2rem;
+margin: 2rem 1rem;
 }
 .card-section {
   direction: rtl;
+  margin: 2rem 1rem;
 }
 .card-img-top {
   width: 100%;
@@ -113,21 +115,39 @@ a:hover {
   margin: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #a21441;
+}
+.jadu {
+  position: relative;
 
 }
-.buy:hover,.like:hover {
-color: #a21441 !important;
-padding-left :40px ;
-transition: 0.5s;
+
+.hide {
+  display: none;
 }
-.footer{
+.jadu:hover .hide {
+  display: inline;
+  color: #fff;
+  transition: all 1s ease-in;
+}
+
+.footer {
   margin: 2rem auto;
 }
-
-
-
-
-
-
-
-
+@media screen and (max-width:768px){
+  .icons a {
+    margin: 0 1rem;
+  }
+  .login-holder  {
+font-size: 1rem;
+  }
+  
+}
+@media screen and (max-width:400px){
+  .icons a {
+    margin: 0 0.5rem;
+  }
+  .login-holder  {
+font-size: 0.7rem;
+  }
+  
+}
