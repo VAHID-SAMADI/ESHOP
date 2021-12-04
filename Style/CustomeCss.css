@@ -111,8 +111,14 @@ a:hover {
 .section-title {
   direction: rtl;
   margin: 1.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 2px solid #a21441;
 
+}
+.buy:hover,.like:hover {
+color: #a21441 !important;
+padding-left :40px ;
+transition: 0.5s;
 }
 .footer{
   margin: 2rem auto;
