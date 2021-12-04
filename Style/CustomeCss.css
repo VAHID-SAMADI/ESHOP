@@ -1,0 +1,54 @@
+* {
+  text-decoration: none;
+  color: gray;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar {
+  font-size: large;
+  color: gray;
+}
+.login-holder {
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+.login-holder i {
+  margin: 0 5px;
+}
+.icons a {
+  margin: 0 2rem;
+}
+.carousel-item {
+  height: 80vh;
+}
+.slide-1,
+.slide-2,
+.slide-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide-1 {
+  background-image: url(Parts_Needed_to_Build_a_PC.webp);
+}
+.slide-2 {
+  background-image: url(razer-keyboard.png);
+}
+.slide-3 {
+  background-image: url(Razer-Mouse-Dock-Chroma-Setup.jpg);
+}
+.carousel-caption h5 {
+  display: inline-block;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.cards-holder{
+margin-top: 2rem;
+}
